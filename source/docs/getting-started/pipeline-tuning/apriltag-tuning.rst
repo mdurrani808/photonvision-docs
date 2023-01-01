@@ -7,6 +7,8 @@ AprilTag Tuning
 
 |
 
+.. note:: In order to get 3D data from AprilTags, ensure that you :ref:`calibrate your camera<docs/getting-started/pipeline-tuning/calibration:Calibration Steps>`.
+
 Target Family
 -------------
 Target families are defined by two numbers (before and after the h). The first number is the number of bits the tag is able to encode (which means more tags are available in the respective family) and the second is the hamming distance. Hamming distance describes the ability for error correction while identifying tag ids. A high hamming distance generally means that it will be easier for a tag to be identified even if there are errors. However, as hamming distance increases, the number of available tags decreases. The 2023 FRC game will be using 16h5 tags, which can be found `here <https://github.com/AprilRobotics/apriltag-imgs/tree/master/tag16h5>`_. PhotonVision also supports the usage of 36h11 tags.
