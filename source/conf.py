@@ -77,8 +77,8 @@ pygments_style = "sphinx"
 
 html_theme_options = {
     "sidebar_hide_name": True,
-    "light_logo": "assets/RoundLogoLight.png",
-    "dark_logo": "assets/RoundLogo.png",
+    "light_logo": "assets/PhotonVision-Header-onWhite.png",
+    "dark_logo": "assets/PhotonVision-Header-noBG.png",
     
     "light_css_variables": {
         "font-stack": '-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;',
